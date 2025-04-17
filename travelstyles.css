@@ -4,7 +4,7 @@ body {
 }
 
 #wrapper {
-    width: 950px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 125px;
@@ -20,11 +20,20 @@ body {
     background-color: #6E7269;
 }
 
+main {
+    background-color: azure;
+    width: 1200px;
+}
+
 header {
-    width: 950px;
+    width: 1200px;
     margin: auto;
     height: 75px;
-    border: 1px solid red;
+    border: 1px solid #6E7269;
+}
+
+h1 {
+    text-align: center;
 }
 
 #logo {
@@ -36,7 +45,7 @@ header {
 nav {
     float: right;
     width: 600px;
-    background-color: rgba(255, 99, 71, .5);
+    /*background-color: rgba(255, 99, 71, .5);*/
     border-radius: 15px 15px 0 0;
     margin-top: 25px;
     text-align: center;
@@ -47,11 +56,11 @@ figure {
     padding: 0;
 }
 
-#col1, #col2, #col3 {
+#col1, #col2 {
     width: 300px;
     float: left;
-    background-color: deeppink; /*temporary*/
-    border: 1px solid greenyellow; /*tem*/
+    background-color: #6E7269; /*temporary*/
+    border: 1px solid gray; /*tem*/
 }
 
 #hero {
@@ -61,7 +70,11 @@ figure {
     border: 1px solid olive;
 }
 
+footer {
+    text-align: center;
+}
+
 /* Nav enhance */
 nav ul {list-style-type: none;}
 
-nav li {display: inline}
+nav li {display: inline-block}

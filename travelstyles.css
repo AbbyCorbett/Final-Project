@@ -8,6 +8,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: 125px;
+    
     /* border: 2px solid red; */
 }
 
@@ -25,6 +26,7 @@ main {
     width: 1200px;
 }
 
+
 header {
     width: 1200px;
     margin: auto;
@@ -32,8 +34,19 @@ header {
     border: 1px solid #6E7269;
 }
 
+blockquote {
+    /*box-shadow: 10px 5px 5px blue;*/
+    box-sizing: border-box;
+    border: solid #5b6dcd 10px;
+    padding: 5px;
+}
+
 h1 {
     text-align: center;
+}
+
+h3 {
+    
 }
 
 #logo {

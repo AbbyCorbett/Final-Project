@@ -26,6 +26,9 @@ main {
     width: 1200px;
 }
 
+section {
+    text-align: center;
+}
 
 header {
     width: 1200px;
@@ -45,7 +48,10 @@ h1 {
     text-align: center;
 }
 
-
+iconCart {
+    float: right;
+    width: 50px;
+}
 
 #logo {
     float: left;

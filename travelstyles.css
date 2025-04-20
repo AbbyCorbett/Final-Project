@@ -1,3 +1,15 @@
+.arsenal-sc-regular {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
 body {
     background-color: #6E808D;
 
@@ -30,11 +42,17 @@ section {
     text-align: center;
 }
 
+aboutUsGIF1 {
+    float: right;
+    margin: auto;
+    padding-left: 10px;
+}
 header {
     width: 1200px;
     margin: auto;
     height: 75px;
     border: 1px solid #6E7269;
+    display: flex;
 }
 
 blockquote {
@@ -49,8 +67,11 @@ h1 {
 }
 
 iconCart {
-    float: right;
-    width: 50px;
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #logo {
@@ -59,14 +80,52 @@ iconCart {
 
 }
 
-nav {
+ul {
+    list-style: none;
+    background-color: #6E808D;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #6E808D;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: #6030e9;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+/*nav {
     float: right;
     width: 600px;
-    /*background-color: rgba(255, 99, 71, .5);*/
+    /*background-color: rgba(255, 99, 71, .5);
     border-radius: 15px 15px 0 0;
     margin-top: 25px;
     text-align: center;
-}
+
+}*/
 
 figure {
     margin: 0;

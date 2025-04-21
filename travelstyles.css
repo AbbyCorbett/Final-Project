@@ -66,6 +66,9 @@ h1 {
     text-align: center;
 }
 
+gallery {
+    float: left;
+}
 iconCart {
     width: 900px;
     max-width: 90vw;

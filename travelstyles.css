@@ -157,3 +157,15 @@ footer {
 nav ul {list-style-type: none;}
 
 nav li {display: inline-block}
+
+#ticketsImg img{
+
+    margin: auto;
+    height: auto;
+    padding: 10px;
+
+
+}
+#iconCart img{
+
+}
